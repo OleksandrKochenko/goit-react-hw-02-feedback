@@ -1,0 +1,34 @@
+body {
+    background-color: darkgray;
+}
+.feedback_container {
+    margin: 20px;
+}
+.feedback_buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 220px;
+}
+.button {
+    width: 70px;
+    padding: 5px;
+    background-color: cadetblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.button:hover {
+    cursor: pointer;
+    transform: translate(1px, 1px);
+    border: 1px solid white;
+    padding: 4px;
+}
+.statistics_list {
+    list-style-type: none;
+    padding: 0;
+    font-size: 20px;
+    line-height: 1.5;
+}
+.statistics_empty {
+    font-size: 20px;
+}
